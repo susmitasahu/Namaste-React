@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);*/
 const parent = React.createElement(
     "div",
-    {id : "parent"},
+    {id : "parent"}, 
     React.createElement(
         "div",
         {id:"child"},
